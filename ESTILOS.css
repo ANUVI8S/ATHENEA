@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background: #EECDA3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'open sans';
+
+}
+.IMAGEN{
+    background-image: url(UÑAS2.png);
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    position: relative;
+   
+    background-size: cover;
+    border-radius: 10px;
+}
+.IMAGEN h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+    
+}
+
+nav>a {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+.B{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    height: 230px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.TEXTOS{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.lista{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ser{
+    color: rgb(255, 255, 255);
+}
